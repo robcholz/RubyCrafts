@@ -1,0 +1,39 @@
+{
+  "parent": "minecraft:story/obtain_armor",
+  "display": {
+    "icon": {
+      "item": "ruby_crafts:ruby_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": "Crimson not That Crimson",
+    "description": "Get a full suit of Ruby armor",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "rewards": {
+    "experience": 80
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "ruby_crafts:ruby_helmet"
+          },
+          {
+            "item": "ruby_crafts:ruby_chestplate"
+          },
+          {
+            "item": "ruby_crafts:ruby_leggings"
+          },
+          {
+            "item": "ruby_crafts:ruby_boots"
+          }
+        ]
+      }
+    }
+  }
+}

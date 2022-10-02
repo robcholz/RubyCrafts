@@ -1,0 +1,14 @@
+{
+  "item.ruby_crafts.ruby": "Robijn",
+  "item.ruby_crafts.ruby_helmet": "Robijn Helm",
+  "item.ruby_crafts.ruby_chestplate": "Robijn Borstplaat",
+  "item.ruby_crafts.ruby_leggings": "Robijn Beenstukken",
+  "item.ruby_crafts.ruby_boots": "Robijn Laarzen",
+  "item.ruby_crafts.ruby_axe": "Robijn Bijl",
+  "item.ruby_crafts.ruby_hoe": "Robijn Schoffel",
+  "item.ruby_crafts.ruby_pickaxe": "Robijn Houweel",
+  "item.ruby_crafts.ruby_shovel": "Robijn Schep",
+  "item.ruby_crafts.ruby_sword": "Robijn Zwaard",
+  "block.ruby_crafts.ruby_ore": "Robijnerts",
+  "block.ruby_crafts.ruby_block": "Robijnblok"
+}
