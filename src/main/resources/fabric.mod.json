@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "rubycrafts",
+  "version": "${version}",
+  "name": "Rubycrafts",
+  "description": "RubyCrafts - Added some items and blocks related to ruby!",
+  "authors": [
+    "robcholz"
+  ],
+  "contact": {
+    "repo": "https://github.com/robcholz/RubyCrafts"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/ruby_crafts/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "robcholz.rubycrafts.client.RubycraftsClient"
+    ],
+    "main": [
+      "robcholz.rubycrafts.RubyCrafts"
+    ]
+  },
+  "mixins": [
+    "rubycrafts.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
